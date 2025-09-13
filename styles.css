@@ -19,8 +19,42 @@ body {
     overflow-y: auto;
     z-index: 10000;
 }
+::selection {
+    background-color: #d0d0d0; 
+    color: green;
+}
+li{
+    list-style-type:none;
+}
+.info-box {
+    background-color: white;
+    padding: 10px 8px 20px 8px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    border-radius: 8px;
+    border: 2px solid #e1e5eb;
+}
 
+    .info-box p {
+        margin-top: 10px;
+        font-size: 13px;
+        background-color: #edeef0;
+    }
 
+    .info-box h3 {
+        margin: 15px 5px 15px 5px;
+    }
+
+button {
+    background-color: white;
+    color: #2e5473;
+    border: none;
+    cursor: pointer;
+}
+
+    button:last-of-type {
+        float: right;
+    }
 
 .footer {
     background-color: white;
