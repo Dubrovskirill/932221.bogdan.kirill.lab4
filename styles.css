@@ -133,3 +133,88 @@ hr {
         max-height: 500px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .header {
+        padding: 10px 0 5px 90px;
+    }
+    .container {
+        display: flex;
+        margin-left:30px;
+        max-width: 550px;
+        margin-top: 15px;
+    }
+
+    .sidebar {
+        text-align: left;
+        width: 80px;
+        float: left;
+        flex-grow: 1;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+
+    .main-content {
+        width: 300px;
+        flex-grow: 1;
+        font-size:14px;
+    }
+    button {
+        font-size: 16px;
+    }
+
+    .right-sidebar {
+        display: none;
+    }
+
+    .footer {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .header {
+        padding: 10px 0 5px 90px;
+    }
+    .header img{
+        width:60px;
+        height:25px;
+    }
+    li {
+        display: inline-block;
+    }
+    .container {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-bottom:20px;
+    }
+
+    .sidebar {
+        padding-bottom: 30px;
+        text-align: center;
+        float: none;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .sidebar a{
+        display:inline;
+    }
+    .main-content {
+        width: 100%;
+        font-size: 14px;
+    }
+    button{
+        font-size:16px;
+    }
+    .right-sidebar {
+        display: none;
+    }
+    .footer {
+        height: 30px;
+        font-size: 15px;
+    }
+}
