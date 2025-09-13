@@ -96,3 +96,40 @@ hr {
     justify-content: center;
     font-size: 12px;
 }
+
+
+@media screen and (min-width:1001px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        margin: 0 auto;
+        max-width: 800px;
+        margin-top: 15px;
+    }
+
+    .sidebar {
+        text-align: left;
+        width: 180px;
+        float: left;
+        flex-grow: 1;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+
+    .main-content {
+        width: 400px;
+        flex-grow: 1;
+    }
+
+
+    .right-sidebar {
+        width: 305px;
+        position: sticky;
+        top: 62px;
+        max-height: 500px;
+    }
+}
